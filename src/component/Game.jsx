@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Square from "./Square";
-
+ 
 const Game = () => {
   const [num, setNum] = useState(Array(9).fill(null));
   const [cond, setCond] = useState(true);
